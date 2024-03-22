@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFCC - Menu</title>
+    <link rel="icon" type="image" href="https://www.google.com/favicon.ico">
+    <style>
+        body {
+            background-image: url('backup.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: scroll; /* This makes the background fixed while scrolling */
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh; /* Ensure body takes up at least full height of viewport */
+        }
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            color: pink;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: auto; /* Push footer to the bottom */
+            margin-bottom: 20px; /* Add some space between content and footer */
+        }
+        .menu-item {
+            margin-bottom: 20px;
+        }
+        h2{
+            background-color: pink;
+        }
+        .menu-image {
+            position: absolute; /* Position the image absolutely */
+            left: 0; /* Position the first image at the left edge of the page */
+            top: 0; 
+            border-radius: 200px;
+        }
+        .menu-image-right {
+            position: absolute; /* Position the image absolutely */
+            right: 0; /* Position the second image at the right edge of the page */
+            top: 0; 
+            border-radius: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Delicious Menu</h1>
+        <header>
+    <h1 style="color: pink;"><b>KFCC Restaurant</b></h1>
+    <nav>
+        <ul>
+            <li><a href="Home Page (index.html).html" target="_self">Home</a></li>
+            <li><a href="Menu Page (menu.html).html" target="_self">Menu</a></li>
+            <li><a href="About Page (about.html).html"  target="_self">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+    </header>
+
+    <section class="menu">
+        <div class="menu-item">
+            <h2>Appetizers</h2>
+            <p><strong>Crispy Chicken Wings</strong>: Deliciously seasoned and fried to perfection. - <strong>₵15.99</strong></p>
+            <p><strong>Mozzarella Sticks</strong>: Golden fried and served with marinara sauce. - <strong>₵12.99</strong></p>
+            <p><strong>Corn on the Cob</strong>: Fresh corn brushed with butter and sprinkled with seasoning. - <strong>₵8.99</strong></p>
+        </div>
+        <img src="foodone.jpg" alt="foodone" width="350px" height="300px"; class="menu-image">
+
+        <div class="menu-item">
+            <h2>Main Courses</h2>
+            <p><strong>Original Recipe Chicken Bucket</strong>: A bucket of our famous original recipe chicken pieces. - <strong>₵49.99</strong></p>
+            <p><strong>Zinger Burger Meal</strong>: A spicy chicken fillet with lettuce, mayo, and a side of fries. - <strong>₵27.99</strong></p>
+            <p><strong>Crispy Chicken Wrap</strong>: Crispy chicken tenders, lettuce, and mayo wrapped in a warm tortilla. - <strong>₵22.99</strong></p>
+            <p><strong>Grilled Chicken Salad</strong>: Grilled chicken strips on a bed of fresh greens with your choice of dressing. - <strong>₵34.99</strong></p>
+        </div>
+
+        <!-- Second Image -->
+        <img src="foodtwo.jpg" alt="foodtwo" width="400px" height="370px"; class="menu-image-right">
+
+        <div class="menu-item">
+            <h2>Sides</h2>
+            <p><strong>French Fries</strong>: Crispy golden fries. - <strong>₵10.99</strong></p>
+            <p><strong>Creamy Coleslaw</strong>: Freshly shredded cabbage and carrots in a creamy dressing. - <strong>₵7.99</strong></p>
+            <p><strong>Mashed Potatoes</strong>: Creamy mashed potatoes topped with gravy. - <strong>₵12.99</strong></p>
+        </div>
+        <div class="menu-item">
+            <h2>Desserts</h2>
+            <p><strong>Chocolate Lava Cake</strong>: Warm chocolate cake with a molten chocolate center, served with vanilla ice cream. - <strong>₵18.99</strong></p>
+            <p><strong>Apple Pie</strong>: Warm apple pie topped with a scoop of ice cream. - <strong>₵15.99</strong></p>
+        </div>
+
+        <div class="menu-item">
+            <h2>Beverages</h2>
+            <p><strong>Soft Drinks</strong>: Coca-Cola, Sprite, Fanta. - <strong>₵6.99</strong></p>
+            <p><strong>Bottled Water</strong>: Still or sparkling. - <strong>₵4.99</strong></p>
+            <p><strong>Iced Tea</strong>: Sweetened or unsweetened. - <strong>₵8.99</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Experience the taste sensation!</p>
+        <p>&copy; 2024 My Restaurant</p>
+    </footer>
+</body>
+</html>
